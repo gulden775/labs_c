@@ -6,8 +6,9 @@
 int main(int argc, char *argv[]) {
 	
 	int a=1,b=3,c=2;
-	++b;
-	b++;
-	printf("%d\n",-b);
+	a=b++;	
+	printf("%d %d\n",a,b);
+	a=b/c;
+	printf("%d\n",a);
 	return 0;
 }
