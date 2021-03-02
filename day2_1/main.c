@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	double 			d=.6345;		printf("%f\n",d);  //("%g\n",d);
 	
 	short			h=3,n=4,m=5;	printf("%i\n",h);
-	scanf("%hi %hi %hi",&h,&n,&m);
+	scanf("%hi,%hi,%hi",&h,&n,&m);
 	printf("%i %i %i\n",h,n,m);
 									printf("%s\n","hello Привет");
 	
