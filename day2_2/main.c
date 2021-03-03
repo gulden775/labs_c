@@ -13,5 +13,14 @@ int main(int argc, char *argv[]) {
 	
 	printf("%d\n",!-45);
 	printf("%hu\n",8>>2);  //сдвиг в право деление на 2 два раза. в лево  умножение на 2 два раза
+	
+	//n=n& int побитовое умножение вы
+	
+	// day3 размерность
+	printf("size=%d\n",sizeof(2/4.1));
+	printf("size=%d\n",sizeof(long int));
+	printf("size=%d\n",sizeof(char));
+	
+	printf("size=%d\n",b/c);
 	return 0;
 }
