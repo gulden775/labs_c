@@ -10,5 +10,8 @@ int main(int argc, char *argv[]) {
 	printf("%d %d\n",a,b);
 	a=b/c;
 	printf("%d\n",a);
+	
+	printf("%d\n",!-45);
+	printf("%hu\n",8>>2);  //сдвиг в право деление на 2 два раза. в лево  умножение на 2 два раза
 	return 0;
 }
